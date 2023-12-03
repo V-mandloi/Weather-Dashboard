@@ -1,0 +1,134 @@
+
+body{
+    background-image: url("");
+    -webkit-background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+}
+
+.header-text {
+    font-size:3rem;  
+    line-height: 1.2;
+    color: #fff;
+   
+  }  
+
+.nav-bar{
+  text-align: center;
+  background: #ada996;
+  background: -webkit-linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); 
+  background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); 
+  border-bottom-color: linear-gradient(to right, #0f0c29, #302b63, #24243e);;  
+  border-bottom-width: 5px; 
+}
+.btn {
+  color: #fff;
+  background-color: #7b141e;
+}
+
+#currentDay{
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin: 0em;    
+  }
+  
+.footer {
+    background: #ada996; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 7%;    
+    border-top: solid;
+    border-top-color: linear-gradient(to right, #0f0c29, #302b63, #24243e);;  
+    border-top-width: 5px;
+    text-align: center; 
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;    
+  }
+
+  .footer-text{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+    /* padding: 12px; */
+  }
+ 
+   .col-12 .box {   
+    background:whitesmoke;
+    border-radius: 12px;
+    width: 760px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.temperatureFont {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.bg-primary{
+  border-radius: 10px;
+}
+
+.bg-light { 
+  margin-top: 15px;
+  /* margin-left: 10px; */
+  border-radius: 10px;
+  margin-bottom: 17px;  
+}
+
+.imgsize {
+  width: 100px;
+  float: right;
+  margin-right: 50%;
+}
+
+li{
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+
+
+.padding{
+  padding: 10px 10px !important;
+}
+
+
+@media only screen and (max-width:992px) {
+  .navbar .header-text{       
+    padding-bottom: 0;
+    border-bottom: solid;   
+    width: 100%;
+    text-align: center;
+    height: 10%;
+  }
+  .footer {     
+    height: 7%;    
+    border-top: solid;      
+    border-top-width: 5px;
+    text-align: center; 
+  }
+}
+
+@media only screen and (max-width:320px) { 
+.col-12 .box {
+  width: 100%;
+}
+.container{
+  width: 100%;
+}
+.navbar .footer .col-4 .row .nav{
+  width: 100%;
+  height:auto;  
+}
+.header-text{
+  font-size: 16px;
+}
+}
+#days{
+margin-left: -25px;
+}
